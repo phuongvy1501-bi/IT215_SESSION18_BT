@@ -5,7 +5,7 @@ from sqlalchemy import create_engine, String, Integer, ForeignKey
 from sqlalchemy.orm import declarative_base, sessionmaker, Session, Mapped, mapped_column, relationship
 
 # Cấu hình Database
-SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:giahan19@localhost:3306/fastapi_db"
+SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:Pvy%401501@localhost:3306/fastapi_db"
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
